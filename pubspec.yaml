@@ -1,0 +1,46 @@
+name: aura_quote
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+  google_generative_ai: ^0.4.6
+  shared_preferences: ^2.3.0
+  flutter_dotenv: ^5.2.0
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.4
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  dart_code_metrics: ^4.19.2
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/image/image.png"
+  adaptive_icon_background: "#131313"
+  adaptive_icon_foreground: "lib/assets/image/image.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - lib/assets/image/image.png

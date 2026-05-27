@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051485347548",
+    "project_id": "auraquote-497106",
+    "storage_bucket": "auraquote-497106.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051485347548:android:63638173164d3a5deb1e19",
+        "android_client_info": {
+          "package_name": "com.example.aura_quote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcVydDWr3txa2Cz92zJ345i4ytkFqLjsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
